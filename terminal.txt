@@ -1,0 +1,748 @@
+olga_ubuntu@Olga:~$ echo "Собака\nКошка\nХомяк" > domestic_animals.txt
+olga_ubuntu@Olga:~$ echo "Лошадь\nВерблюд\nОсёл" > pack_animals.txt
+olga_ubuntu@Olga:~$ cat domestic_animals.txt pack_animals.txt > friends_of_man.txt
+olga_ubuntu@Olga:~$ ll
+итого 152
+drwxr-x--- 17 olga_ubuntu olga_ubuntu 4096 мар 26 21:23  ./
+drwxr-xr-x  5 root        root        4096 окт 20 22:41  ../
+-rw-------  1 olga_ubuntu olga_ubuntu 6494 мар 19 23:27  .bash_history
+-rw-r--r--  1 olga_ubuntu olga_ubuntu  220 мар 31  2024  .bash_logout
+-rw-r--r--  1 olga_ubuntu olga_ubuntu 3771 мар 31  2024  .bashrc
+drwx------ 15 olga_ubuntu olga_ubuntu 4096 мар 19 20:23  .cache/
+drwxrwxr-x  2 olga_ubuntu olga_ubuntu 4096 окт 18 20:41  compose/
+drwx------ 16 olga_ubuntu olga_ubuntu 4096 мар 18 23:21  .config/
+-rw-r--r--  1 root        root         126 мар 19 23:35  dirclean
+-rw-rw-r--  1 olga_ubuntu olga_ubuntu   37 мар 26 21:22  domestic_animals.txt
+-rw-rw-r--  1 olga_ubuntu olga_ubuntu   76 мар 26 21:23  friends_of_man.txt
+drwx------  2 olga_ubuntu olga_ubuntu 4096 янв  5 11:40  .gnupg/
+-rw-r--r--  1 root        root        2488 окт 18 23:00  ip.rules
+-rw-------  1 olga_ubuntu olga_ubuntu   20 окт 18 22:13  .lesshst
+drwx------  4 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  .local/
+-rw-rw-r--  1 olga_ubuntu olga_ubuntu   39 мар 26 21:22  pack_animals.txt
+-rw-r--r--  1 olga_ubuntu olga_ubuntu  807 мар 31  2024  .profile
+-rw-rw-r--  1 olga_ubuntu olga_ubuntu   66 окт 17 22:19  .selected_editor
+drwx------  6 olga_ubuntu olga_ubuntu 4096 окт 10 21:10  snap/
+drwx------  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  .ssh/
+-rw-r--r--  1 olga_ubuntu olga_ubuntu    0 окт  9 23:33  .sudo_as_admin_successful
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-clipboard-tty2-control.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-clipboard-tty2-service.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-draganddrop-tty2-control.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-draganddrop-tty2-service.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-hostversion-tty2-control.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-seamless-tty2-control.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-seamless-tty2-service.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-vmsvga-session-tty2-control.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-vmsvga-session-tty2-service.pid
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  Видео/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  Документы/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт 17 21:36  Загрузки/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  Изображения/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  Музыка/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  Общедоступные/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32 'Рабочий стол'/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  Шаблоны/
+olga_ubuntu@Olga:~$ mv friends_of_man.txt friends_of_man_new_name.txt
+olga_ubuntu@Olga:~$ ll
+итого 152
+drwxr-x--- 17 olga_ubuntu olga_ubuntu 4096 мар 26 21:24  ./
+drwxr-xr-x  5 root        root        4096 окт 20 22:41  ../
+-rw-------  1 olga_ubuntu olga_ubuntu 6494 мар 19 23:27  .bash_history
+-rw-r--r--  1 olga_ubuntu olga_ubuntu  220 мар 31  2024  .bash_logout
+-rw-r--r--  1 olga_ubuntu olga_ubuntu 3771 мар 31  2024  .bashrc
+drwx------ 15 olga_ubuntu olga_ubuntu 4096 мар 19 20:23  .cache/
+drwxrwxr-x  2 olga_ubuntu olga_ubuntu 4096 окт 18 20:41  compose/
+drwx------ 16 olga_ubuntu olga_ubuntu 4096 мар 18 23:21  .config/
+-rw-r--r--  1 root        root         126 мар 19 23:35  dirclean
+-rw-rw-r--  1 olga_ubuntu olga_ubuntu   37 мар 26 21:22  domestic_animals.txt
+-rw-rw-r--  1 olga_ubuntu olga_ubuntu   76 мар 26 21:23  friends_of_man_new_name.txt
+drwx------  2 olga_ubuntu olga_ubuntu 4096 янв  5 11:40  .gnupg/
+-rw-r--r--  1 root        root        2488 окт 18 23:00  ip.rules
+-rw-------  1 olga_ubuntu olga_ubuntu   20 окт 18 22:13  .lesshst
+drwx------  4 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  .local/
+-rw-rw-r--  1 olga_ubuntu olga_ubuntu   39 мар 26 21:22  pack_animals.txt
+-rw-r--r--  1 olga_ubuntu olga_ubuntu  807 мар 31  2024  .profile
+-rw-rw-r--  1 olga_ubuntu olga_ubuntu   66 окт 17 22:19  .selected_editor
+drwx------  6 olga_ubuntu olga_ubuntu 4096 окт 10 21:10  snap/
+drwx------  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  .ssh/
+-rw-r--r--  1 olga_ubuntu olga_ubuntu    0 окт  9 23:33  .sudo_as_admin_successful
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-clipboard-tty2-control.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-clipboard-tty2-service.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-draganddrop-tty2-control.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-draganddrop-tty2-service.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-hostversion-tty2-control.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-seamless-tty2-control.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-seamless-tty2-service.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-vmsvga-session-tty2-control.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-vmsvga-session-tty2-service.pid
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  Видео/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  Документы/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт 17 21:36  Загрузки/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  Изображения/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  Музыка/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  Общедоступные/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32 'Рабочий стол'/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  Шаблоны/
+olga_ubuntu@Olga:~$ mkdir animals_directory
+olga_ubuntu@Olga:~$ mv friends_of_man_new_name.txt animals_directory/
+olga_ubuntu@Olga:~$ ll
+итого 152
+drwxr-x--- 18 olga_ubuntu olga_ubuntu 4096 мар 26 21:25  ./
+drwxr-xr-x  5 root        root        4096 окт 20 22:41  ../
+drwxrwxr-x  2 olga_ubuntu olga_ubuntu 4096 мар 26 21:25  animals_directory/
+-rw-------  1 olga_ubuntu olga_ubuntu 6494 мар 19 23:27  .bash_history
+-rw-r--r--  1 olga_ubuntu olga_ubuntu  220 мар 31  2024  .bash_logout
+-rw-r--r--  1 olga_ubuntu olga_ubuntu 3771 мар 31  2024  .bashrc
+drwx------ 15 olga_ubuntu olga_ubuntu 4096 мар 19 20:23  .cache/
+drwxrwxr-x  2 olga_ubuntu olga_ubuntu 4096 окт 18 20:41  compose/
+drwx------ 16 olga_ubuntu olga_ubuntu 4096 мар 18 23:21  .config/
+-rw-r--r--  1 root        root         126 мар 19 23:35  dirclean
+-rw-rw-r--  1 olga_ubuntu olga_ubuntu   37 мар 26 21:22  domestic_animals.txt
+drwx------  2 olga_ubuntu olga_ubuntu 4096 янв  5 11:40  .gnupg/
+-rw-r--r--  1 root        root        2488 окт 18 23:00  ip.rules
+-rw-------  1 olga_ubuntu olga_ubuntu   20 окт 18 22:13  .lesshst
+drwx------  4 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  .local/
+-rw-rw-r--  1 olga_ubuntu olga_ubuntu   39 мар 26 21:22  pack_animals.txt
+-rw-r--r--  1 olga_ubuntu olga_ubuntu  807 мар 31  2024  .profile
+-rw-rw-r--  1 olga_ubuntu olga_ubuntu   66 окт 17 22:19  .selected_editor
+drwx------  6 olga_ubuntu olga_ubuntu 4096 окт 10 21:10  snap/
+drwx------  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  .ssh/
+-rw-r--r--  1 olga_ubuntu olga_ubuntu    0 окт  9 23:33  .sudo_as_admin_successful
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-clipboard-tty2-control.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-clipboard-tty2-service.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-draganddrop-tty2-control.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-draganddrop-tty2-service.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-hostversion-tty2-control.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-seamless-tty2-control.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-seamless-tty2-service.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-vmsvga-session-tty2-control.pid
+-rw-r-----  1 olga_ubuntu olga_ubuntu    5 мар 26 21:20  .vboxclient-vmsvga-session-tty2-service.pid
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  Видео/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  Документы/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт 17 21:36  Загрузки/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  Изображения/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  Музыка/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  Общедоступные/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32 'Рабочий стол'/
+drwxr-xr-x  2 olga_ubuntu olga_ubuntu 4096 окт  9 23:32  Шаблоны/
+olga_ubuntu@Olga:~$ cd animals_directory/
+olga_ubuntu@Olga:~/animals_directory$ ll
+итого 12
+drwxrwxr-x  2 olga_ubuntu olga_ubuntu 4096 мар 26 21:25 ./
+drwxr-x--- 18 olga_ubuntu olga_ubuntu 4096 мар 26 21:25 ../
+-rw-rw-r--  1 olga_ubuntu olga_ubuntu   76 мар 26 21:23 friends_of_man_new_name.txt
+olga_ubuntu@Olga:~/animals_directory$ cd ..
+olga_ubuntu@Olga:~$ sudo apt-get install software-properties-common
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 467B942D3A79BD29
+sudo add-apt-repository 'deb http://repo.mysql.com/apt/ubuntu/ focal mysql-8.0'
+sudo apt update
+sudo apt install mysql-server
+[sudo] пароль для olga_ubuntu: 
+Чтение списков пакетов… Готово
+Построение дерева зависимостей… Готово
+Чтение информации о состоянии… Готово         
+Уже установлен пакет software-properties-common самой новой версии (0.99.49.1).
+software-properties-common помечен как установленный вручную.
+Обновлено 0 пакетов, установлено 0 новых пакетов, для удаления отмечено 0 пакетов, и 7 пакетов не обновлено.
+Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead (see apt-key(8)).
+Executing: /tmp/apt-key-gpghome.iueWlbJkGd/gpg.1.sh --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 467B942D3A79BD29
+gpg: ключ 467B942D3A79BD29: импортирован открытый ключ "MySQL Release Engineering <mysql-build@oss.oracle.com>"
+gpg: Всего обработано: 1
+gpg:               импортировано: 1
+Репозиторий: 'deb http://repo.mysql.com/apt/ubuntu/ focal mysql-8.0'
+Описание:
+Archive for codename: focal components: mysql-8.0
+Дополнительные сведения: http://repo.mysql.com/apt/ubuntu/
+Добавление репозитория.
+Нажмите [ENTER] для продолжения или Ctrl-C для отмены.
+Добавление записи deb в /etc/apt/sources.list.d/archive_uri-http_repo_mysql_com_apt_ubuntu_-noble.list
+Добавление отключенной записи deb-src в /etc/apt/sources.list.d/archive_uri-http_repo_mysql_com_apt_ubuntu_-noble.list
+Сущ:1 http://ru.archive.ubuntu.com/ubuntu noble InRelease
+Пол:2 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]      
+Пол:3 https://download.docker.com/linux/ubuntu noble InRelease [48,8 kB]       
+Сущ:4 https://download.virtualbox.org/virtualbox/debian jammy InRelease        
+Пол:5 http://repo.mysql.com/apt/ubuntu focal InRelease [12,8 kB]               
+Пол:6 https://download.docker.com/linux/ubuntu noble/stable amd64 Packages [22,3 kB]
+Ошб:5 http://repo.mysql.com/apt/ubuntu focal InRelease           
+  Следующие подписи не могут быть проверены, так как недоступен открытый ключ: NO_PUBKEY B7B3B788A8D3785C
+Пол:7 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [704 kB]
+Пол:8 http://security.ubuntu.com/ubuntu noble-security/main Translation-en [135 kB]
+Пол:9 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [8 980 B]
+Пол:10 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [7 032 B]
+Пол:11 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [795 kB]
+Пол:12 http://security.ubuntu.com/ubuntu noble-security/restricted Translation-en [160 kB]
+Пол:13 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
+Пол:14 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 c-n-f Metadata [468 B]
+Пол:15 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [824 kB]
+Пол:16 http://security.ubuntu.com/ubuntu noble-security/universe Translation-en [178 kB]
+Пол:17 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52,0 kB]
+Пол:18 http://security.ubuntu.com/ubuntu noble-security/universe amd64 c-n-f Metadata [17,0 kB]
+Пол:19 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [21,3 kB]
+Пол:20 http://security.ubuntu.com/ubuntu noble-security/multiverse Translation-en [4 460 B]
+Пол:21 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [208 B]
+Пол:22 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 c-n-f Metadata [380 B]
+Пол:23 http://ru.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]    
+Пол:24 http://ru.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+Пол:25 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [953 kB]
+Пол:26 http://ru.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [212 kB]
+Пол:27 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [151 kB]
+Пол:28 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [13,5 kB]
+Пол:29 http://ru.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [828 kB]
+Пол:30 http://ru.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [168 kB]
+Пол:31 http://ru.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+Пол:32 http://ru.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 c-n-f Metadata [492 B]
+Пол:33 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1 044 kB]
+Пол:34 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [263 kB]
+Пол:35 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [364 kB]
+Пол:36 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe amd64 c-n-f Metadata [25,9 kB]
+Пол:37 http://ru.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [25,3 kB]
+Пол:38 http://ru.archive.ubuntu.com/ubuntu noble-updates/multiverse Translation-en [5 464 B]
+Пол:39 http://ru.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+Пол:40 http://ru.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 c-n-f Metadata [592 B]
+Пол:41 http://ru.archive.ubuntu.com/ubuntu noble-backports/main amd64 Packages [39,1 kB]
+Пол:42 http://ru.archive.ubuntu.com/ubuntu noble-backports/main Translation-en [8 676 B]
+Пол:43 http://ru.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7 104 B]
+Пол:44 http://ru.archive.ubuntu.com/ubuntu noble-backports/main Icons (48x48) [9 518 B]
+Пол:45 http://ru.archive.ubuntu.com/ubuntu noble-backports/main Icons (64x64) [11,2 kB]
+Пол:46 http://ru.archive.ubuntu.com/ubuntu noble-backports/main amd64 c-n-f Metadata [272 B]
+Пол:47 http://ru.archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [212 B]
+Пол:48 http://ru.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Packages [26,4 kB]
+Пол:49 http://ru.archive.ubuntu.com/ubuntu noble-backports/universe Translation-en [16,3 kB]
+Пол:50 http://ru.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [15,8 kB]
+Пол:51 http://ru.archive.ubuntu.com/ubuntu noble-backports/universe Icons (48x48) [17,4 kB]
+Пол:52 http://ru.archive.ubuntu.com/ubuntu noble-backports/universe Icons (64x64) [24,3 kB]
+Пол:53 http://ru.archive.ubuntu.com/ubuntu noble-backports/universe amd64 c-n-f Metadata [1 304 B]
+Пол:54 http://ru.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
+Чтение списков пакетов… Готово                                     
+W: Ошибка GPG: http://repo.mysql.com/apt/ubuntu focal InRelease: Следующие подписи не могут быть проверены, так как недоступен открытый ключ: NO_PUBKEY B7B3B788A8D3785C
+E: Репозиторий «http://repo.mysql.com/apt/ubuntu focal InRelease» не подписан.
+N: Обновление из этого репозитория нельзя выполнить безопасным способом, поэтому по умолчанию он отключён.
+N: Информацию о создании репозитория и настройках пользователя смотрите в справочной странице apt-secure(8).
+Сущ:1 http://ru.archive.ubuntu.com/ubuntu noble InRelease
+Сущ:2 http://ru.archive.ubuntu.com/ubuntu noble-updates InRelease              
+Сущ:3 http://ru.archive.ubuntu.com/ubuntu noble-backports InRelease            
+Пол:4 http://repo.mysql.com/apt/ubuntu focal InRelease [12,8 kB]               
+Сущ:5 https://download.docker.com/linux/ubuntu noble InRelease                 
+Сущ:6 https://download.virtualbox.org/virtualbox/debian jammy InRelease        
+Сущ:7 http://security.ubuntu.com/ubuntu noble-security InRelease               
+Ошб:4 http://repo.mysql.com/apt/ubuntu focal InRelease
+  Следующие подписи не могут быть проверены, так как недоступен открытый ключ: NO_PUBKEY B7B3B788A8D3785C
+Чтение списков пакетов… Готово
+W: Ошибка GPG: http://repo.mysql.com/apt/ubuntu focal InRelease: Следующие подписи не могут быть проверены, так как недоступен открытый ключ: NO_PUBKEY B7B3B788A8D3785C
+E: Репозиторий «http://repo.mysql.com/apt/ubuntu focal InRelease» не подписан.
+N: Обновление из этого репозитория нельзя выполнить безопасным способом, поэтому по умолчанию он отключён.
+N: Информацию о создании репозитория и настройках пользователя смотрите в справочной странице apt-secure(8).
+Чтение списков пакетов… Готово
+Построение дерева зависимостей… Готово
+Чтение информации о состоянии… Готово         
+Будут установлены следующие дополнительные пакеты:
+  libaio1t64 libcgi-fast-perl libcgi-pm-perl libevent-core-2.1-7t64
+  libevent-pthreads-2.1-7t64 libfcgi-bin libfcgi-perl libfcgi0t64
+  libhtml-template-perl libmecab2 libprotobuf-lite32t64 mecab-ipadic
+  mecab-ipadic-utf8 mecab-utils mysql-client-8.0 mysql-client-core-8.0
+  mysql-common mysql-server-8.0 mysql-server-core-8.0
+Предлагаемые пакеты:
+  libipc-sharedcache-perl mailx tinyca
+Следующие НОВЫЕ пакеты будут установлены:
+  libaio1t64 libcgi-fast-perl libcgi-pm-perl libevent-core-2.1-7t64
+  libevent-pthreads-2.1-7t64 libfcgi-bin libfcgi-perl libfcgi0t64
+  libhtml-template-perl libmecab2 libprotobuf-lite32t64 mecab-ipadic
+  mecab-ipadic-utf8 mecab-utils mysql-client-8.0 mysql-client-core-8.0
+  mysql-common mysql-server mysql-server-8.0 mysql-server-core-8.0
+Обновлено 0 пакетов, установлено 20 новых пакетов, для удаления отмечено 0 пакетов, и 22 пакетов не обновлено.
+Необходимо скачать 29,3 MB архивов.
+После данной операции объём занятого дискового пространства возрастёт на 242 MB.
+Хотите продолжить? [Д/н] y
+Пол:1 http://ru.archive.ubuntu.com/ubuntu noble/main amd64 mysql-common all 5.8+1.1.0build1 [6 746 B]
+Пол:2 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 mysql-client-core-8.0 amd64 8.0.41-0ubuntu0.24.04.1 [2 727 kB]
+Пол:3 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 mysql-client-8.0 amd64 8.0.41-0ubuntu0.24.04.1 [22,4 kB]
+Пол:4 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 libaio1t64 amd64 0.3.113-6build1.1 [7 210 B]
+Пол:5 http://ru.archive.ubuntu.com/ubuntu noble/main amd64 libevent-core-2.1-7t64 amd64 2.1.12-stable-9ubuntu2 [91,3 kB]
+Пол:6 http://ru.archive.ubuntu.com/ubuntu noble/main amd64 libevent-pthreads-2.1-7t64 amd64 2.1.12-stable-9ubuntu2 [7 982 B]
+Пол:7 http://ru.archive.ubuntu.com/ubuntu noble/main amd64 libmecab2 amd64 0.996-14ubuntu4 [201 kB]
+Пол:8 http://ru.archive.ubuntu.com/ubuntu noble/main amd64 libprotobuf-lite32t64 amd64 3.21.12-8.2build1 [238 kB]
+Пол:9 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 mysql-server-core-8.0 amd64 8.0.41-0ubuntu0.24.04.1 [17,5 MB]
+Пол:10 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 mysql-server-8.0 amd64 8.0.41-0ubuntu0.24.04.1 [1 432 kB]
+Пол:11 http://ru.archive.ubuntu.com/ubuntu noble/main amd64 libcgi-pm-perl all 4.63-1 [185 kB]
+Пол:12 http://ru.archive.ubuntu.com/ubuntu noble/main amd64 libfcgi0t64 amd64 2.4.2-2.1build1 [26,8 kB]
+Пол:13 http://ru.archive.ubuntu.com/ubuntu noble/main amd64 libfcgi-perl amd64 0.82+ds-3build2 [21,7 kB]
+Пол:14 http://ru.archive.ubuntu.com/ubuntu noble/main amd64 libcgi-fast-perl all 1:2.17-1 [10,3 kB]
+Пол:15 http://ru.archive.ubuntu.com/ubuntu noble/main amd64 libfcgi-bin amd64 2.4.2-2.1build1 [11,2 kB]
+Пол:16 http://ru.archive.ubuntu.com/ubuntu noble/main amd64 libhtml-template-perl all 2.97-2 [60,2 kB]
+Пол:17 http://ru.archive.ubuntu.com/ubuntu noble/main amd64 mecab-utils amd64 0.996-14ubuntu4 [4 804 B]
+Пол:18 http://ru.archive.ubuntu.com/ubuntu noble/main amd64 mecab-ipadic all 2.7.0-20070801+main-3 [6 718 kB]
+Пол:19 http://ru.archive.ubuntu.com/ubuntu noble/main amd64 mecab-ipadic-utf8 all 2.7.0-20070801+main-3 [4 384 B]
+Пол:20 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 mysql-server all 8.0.41-0ubuntu0.24.04.1 [9 520 B]
+Получено 29,3 MB за 2с (15,2 MB/s)
+Предварительная настройка пакетов …
+Выбор ранее не выбранного пакета mysql-common.
+(Чтение базы данных … на данный момент установлено 193362 файла и каталога.)
+Подготовка к распаковке …/0-mysql-common_5.8+1.1.0build1_all.deb …
+Распаковывается mysql-common (5.8+1.1.0build1) …
+Выбор ранее не выбранного пакета mysql-client-core-8.0.
+Подготовка к распаковке …/1-mysql-client-core-8.0_8.0.41-0ubuntu0.24.04.1_amd64.
+deb …
+Распаковывается mysql-client-core-8.0 (8.0.41-0ubuntu0.24.04.1) …
+Выбор ранее не выбранного пакета mysql-client-8.0.
+Подготовка к распаковке …/2-mysql-client-8.0_8.0.41-0ubuntu0.24.04.1_amd64.deb …
+Распаковывается mysql-client-8.0 (8.0.41-0ubuntu0.24.04.1) …
+Выбор ранее не выбранного пакета libaio1t64:amd64.
+Подготовка к распаковке …/3-libaio1t64_0.3.113-6build1.1_amd64.deb …
+Распаковывается libaio1t64:amd64 (0.3.113-6build1.1) …
+Выбор ранее не выбранного пакета libevent-core-2.1-7t64:amd64.
+Подготовка к распаковке …/4-libevent-core-2.1-7t64_2.1.12-stable-9ubuntu2_amd64.
+deb …
+Распаковывается libevent-core-2.1-7t64:amd64 (2.1.12-stable-9ubuntu2) …
+Выбор ранее не выбранного пакета libevent-pthreads-2.1-7t64:amd64.
+Подготовка к распаковке …/5-libevent-pthreads-2.1-7t64_2.1.12-stable-9ubuntu2_am
+d64.deb …
+Распаковывается libevent-pthreads-2.1-7t64:amd64 (2.1.12-stable-9ubuntu2) …
+Выбор ранее не выбранного пакета libmecab2:amd64.
+Подготовка к распаковке …/6-libmecab2_0.996-14ubuntu4_amd64.deb …
+Распаковывается libmecab2:amd64 (0.996-14ubuntu4) …
+Выбор ранее не выбранного пакета libprotobuf-lite32t64:amd64.
+Подготовка к распаковке …/7-libprotobuf-lite32t64_3.21.12-8.2build1_amd64.deb …
+Распаковывается libprotobuf-lite32t64:amd64 (3.21.12-8.2build1) …
+Выбор ранее не выбранного пакета mysql-server-core-8.0.
+Подготовка к распаковке …/8-mysql-server-core-8.0_8.0.41-0ubuntu0.24.04.1_amd64.
+deb …
+Распаковывается mysql-server-core-8.0 (8.0.41-0ubuntu0.24.04.1) …
+Настраивается пакет mysql-common (5.8+1.1.0build1) …
+update-alternatives: используется /etc/mysql/my.cnf.fallback для предоставления 
+/etc/mysql/my.cnf (my.cnf) в автоматическом режиме
+Выбор ранее не выбранного пакета mysql-server-8.0.
+(Чтение базы данных … на данный момент установлено 193592 файла и каталога.)
+Подготовка к распаковке …/00-mysql-server-8.0_8.0.41-0ubuntu0.24.04.1_amd64.deb 
+…
+Распаковывается mysql-server-8.0 (8.0.41-0ubuntu0.24.04.1) …
+Выбор ранее не выбранного пакета libcgi-pm-perl.
+Подготовка к распаковке …/01-libcgi-pm-perl_4.63-1_all.deb …
+Распаковывается libcgi-pm-perl (4.63-1) …
+Выбор ранее не выбранного пакета libfcgi0t64:amd64.
+Подготовка к распаковке …/02-libfcgi0t64_2.4.2-2.1build1_amd64.deb …
+Распаковывается libfcgi0t64:amd64 (2.4.2-2.1build1) …
+Выбор ранее не выбранного пакета libfcgi-perl.
+Подготовка к распаковке …/03-libfcgi-perl_0.82+ds-3build2_amd64.deb …
+Распаковывается libfcgi-perl (0.82+ds-3build2) …
+Выбор ранее не выбранного пакета libcgi-fast-perl.
+Подготовка к распаковке …/04-libcgi-fast-perl_1%3a2.17-1_all.deb …
+Распаковывается libcgi-fast-perl (1:2.17-1) …
+Выбор ранее не выбранного пакета libfcgi-bin.
+Подготовка к распаковке …/05-libfcgi-bin_2.4.2-2.1build1_amd64.deb …
+Распаковывается libfcgi-bin (2.4.2-2.1build1) …
+Выбор ранее не выбранного пакета libhtml-template-perl.
+Подготовка к распаковке …/06-libhtml-template-perl_2.97-2_all.deb …
+Распаковывается libhtml-template-perl (2.97-2) …
+Выбор ранее не выбранного пакета mecab-utils.
+Подготовка к распаковке …/07-mecab-utils_0.996-14ubuntu4_amd64.deb …
+Распаковывается mecab-utils (0.996-14ubuntu4) …
+Выбор ранее не выбранного пакета mecab-ipadic.
+Подготовка к распаковке …/08-mecab-ipadic_2.7.0-20070801+main-3_all.deb …
+Распаковывается mecab-ipadic (2.7.0-20070801+main-3) …
+Выбор ранее не выбранного пакета mecab-ipadic-utf8.
+Подготовка к распаковке …/09-mecab-ipadic-utf8_2.7.0-20070801+main-3_all.deb …
+Распаковывается mecab-ipadic-utf8 (2.7.0-20070801+main-3) …
+Выбор ранее не выбранного пакета mysql-server.
+Подготовка к распаковке …/10-mysql-server_8.0.41-0ubuntu0.24.04.1_all.deb …
+Распаковывается mysql-server (8.0.41-0ubuntu0.24.04.1) …
+Настраивается пакет libprotobuf-lite32t64:amd64 (3.21.12-8.2build1) …
+Настраивается пакет libmecab2:amd64 (0.996-14ubuntu4) …
+Настраивается пакет mysql-client-core-8.0 (8.0.41-0ubuntu0.24.04.1) …
+Настраивается пакет libfcgi0t64:amd64 (2.4.2-2.1build1) …
+Настраивается пакет libcgi-pm-perl (4.63-1) …
+Настраивается пакет libfcgi-bin (2.4.2-2.1build1) …
+Настраивается пакет libhtml-template-perl (2.97-2) …
+Настраивается пакет mecab-utils (0.996-14ubuntu4) …
+Настраивается пакет libaio1t64:amd64 (0.3.113-6build1.1) …
+Настраивается пакет mysql-client-8.0 (8.0.41-0ubuntu0.24.04.1) …
+Настраивается пакет libfcgi-perl (0.82+ds-3build2) …
+Настраивается пакет libevent-core-2.1-7t64:amd64 (2.1.12-stable-9ubuntu2) …
+Настраивается пакет mecab-ipadic (2.7.0-20070801+main-3) …
+Compiling IPA dictionary for Mecab.  This takes long time...
+reading /usr/share/mecab/dic/ipadic/unk.def ... 40
+emitting double-array: 100% |###########################################| 
+/usr/share/mecab/dic/ipadic/model.def is not found. skipped.
+reading /usr/share/mecab/dic/ipadic/Auxil.csv ... 199
+reading /usr/share/mecab/dic/ipadic/Symbol.csv ... 208
+reading /usr/share/mecab/dic/ipadic/Noun.others.csv ... 151
+reading /usr/share/mecab/dic/ipadic/Noun.org.csv ... 16668
+reading /usr/share/mecab/dic/ipadic/Adverb.csv ... 3032
+reading /usr/share/mecab/dic/ipadic/Postp-col.csv ... 91
+reading /usr/share/mecab/dic/ipadic/Suffix.csv ... 1393
+reading /usr/share/mecab/dic/ipadic/Verb.csv ... 130750
+reading /usr/share/mecab/dic/ipadic/Filler.csv ... 19
+reading /usr/share/mecab/dic/ipadic/Noun.proper.csv ... 27328
+reading /usr/share/mecab/dic/ipadic/Noun.csv ... 60477
+reading /usr/share/mecab/dic/ipadic/Adnominal.csv ... 135
+reading /usr/share/mecab/dic/ipadic/Noun.place.csv ... 72999
+reading /usr/share/mecab/dic/ipadic/Interjection.csv ... 252
+reading /usr/share/mecab/dic/ipadic/Noun.adjv.csv ... 3328
+reading /usr/share/mecab/dic/ipadic/Others.csv ... 2
+reading /usr/share/mecab/dic/ipadic/Noun.nai.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Conjunction.csv ... 171
+reading /usr/share/mecab/dic/ipadic/Noun.adverbal.csv ... 795
+reading /usr/share/mecab/dic/ipadic/Noun.verbal.csv ... 12146
+reading /usr/share/mecab/dic/ipadic/Postp.csv ... 146
+reading /usr/share/mecab/dic/ipadic/Noun.number.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Noun.demonst.csv ... 120
+reading /usr/share/mecab/dic/ipadic/Noun.name.csv ... 34202
+reading /usr/share/mecab/dic/ipadic/Prefix.csv ... 221
+reading /usr/share/mecab/dic/ipadic/Adj.csv ... 27210
+emitting double-array: 100% |###########################################| 
+reading /usr/share/mecab/dic/ipadic/matrix.def ... 1316x1316
+emitting matrix      : 100% |###########################################| 
+
+done!
+update-alternatives: используется /var/lib/mecab/dic/ipadic для предоставления /
+var/lib/mecab/dic/debian (mecab-dictionary) в автоматическом режиме
+Настраивается пакет libcgi-fast-perl (1:2.17-1) …
+Настраивается пакет libevent-pthreads-2.1-7t64:amd64 (2.1.12-stable-9ubuntu2) …
+Настраивается пакет mysql-server-core-8.0 (8.0.41-0ubuntu0.24.04.1) …
+Настраивается пакет mecab-ipadic-utf8 (2.7.0-20070801+main-3) …
+Compiling IPA dictionary for Mecab.  This takes long time...
+reading /usr/share/mecab/dic/ipadic/unk.def ... 40
+emitting double-array: 100% |###########################################| 
+/usr/share/mecab/dic/ipadic/model.def is not found. skipped.
+reading /usr/share/mecab/dic/ipadic/Auxil.csv ... 199
+reading /usr/share/mecab/dic/ipadic/Symbol.csv ... 208
+reading /usr/share/mecab/dic/ipadic/Noun.others.csv ... 151
+reading /usr/share/mecab/dic/ipadic/Noun.org.csv ... 16668
+reading /usr/share/mecab/dic/ipadic/Adverb.csv ... 3032
+reading /usr/share/mecab/dic/ipadic/Postp-col.csv ... 91
+reading /usr/share/mecab/dic/ipadic/Suffix.csv ... 1393
+reading /usr/share/mecab/dic/ipadic/Verb.csv ... 130750
+reading /usr/share/mecab/dic/ipadic/Filler.csv ... 19
+reading /usr/share/mecab/dic/ipadic/Noun.proper.csv ... 27328
+reading /usr/share/mecab/dic/ipadic/Noun.csv ... 60477
+reading /usr/share/mecab/dic/ipadic/Adnominal.csv ... 135
+reading /usr/share/mecab/dic/ipadic/Noun.place.csv ... 72999
+reading /usr/share/mecab/dic/ipadic/Interjection.csv ... 252
+reading /usr/share/mecab/dic/ipadic/Noun.adjv.csv ... 3328
+reading /usr/share/mecab/dic/ipadic/Others.csv ... 2
+reading /usr/share/mecab/dic/ipadic/Noun.nai.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Conjunction.csv ... 171
+reading /usr/share/mecab/dic/ipadic/Noun.adverbal.csv ... 795
+reading /usr/share/mecab/dic/ipadic/Noun.verbal.csv ... 12146
+reading /usr/share/mecab/dic/ipadic/Postp.csv ... 146
+reading /usr/share/mecab/dic/ipadic/Noun.number.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Noun.demonst.csv ... 120
+reading /usr/share/mecab/dic/ipadic/Noun.name.csv ... 34202
+reading /usr/share/mecab/dic/ipadic/Prefix.csv ... 221
+reading /usr/share/mecab/dic/ipadic/Adj.csv ... 27210
+emitting double-array: 100% |###########################################| 
+reading /usr/share/mecab/dic/ipadic/matrix.def ... 1316x1316
+emitting matrix      : 100% |###########################################| 
+
+done!
+update-alternatives: используется /var/lib/mecab/dic/ipadic-utf8 для предоставле
+ния /var/lib/mecab/dic/debian (mecab-dictionary) в автоматическом режиме
+Настраивается пакет mysql-server-8.0 (8.0.41-0ubuntu0.24.04.1) …
+update-alternatives: используется /etc/mysql/mysql.cnf для предоставления /etc/m
+ysql/my.cnf (my.cnf) в автоматическом режиме
+Renaming removed key_buffer and myisam-recover options (if present)
+mysqld will log errors to /var/log/mysql/error.log
+mysqld is running as pid 7167
+Created symlink /etc/systemd/system/multi-user.target.wants/mysql.service → /usr
+/lib/systemd/system/mysql.service.
+Настраивается пакет mysql-server (8.0.41-0ubuntu0.24.04.1) …
+Обрабатываются триггеры для man-db (2.12.0-4build2) …
+Обрабатываются триггеры для libc-bin (2.39-0ubuntu8.4) …
+olga_ubuntu@Olga:~$ sudo dpkg -i <package-name>.deb
+sudo dpkg -r <package-name>
+bash: package-name: Нет такого файла или каталога
+bash: синтаксическая ошибка рядом с неожиданным маркером «newline»
+olga_ubuntu@Olga:~$ sudo dpkg -i <package-name>.deb
+bash: package-name: Нет такого файла или каталога
+olga_ubuntu@Olga:~$ sudo dpkg -r <package-name>
+bash: синтаксическая ошибка рядом с неожиданным маркером «newline»
+olga_ubuntu@Olga:~$ history | tail -n 20 
+  278  cat domestic_animals.txt pack_animals.txt > friends_of_man.txt
+  279  ll
+  280  mv friends_of_man.txt friends_of_man_new_name.txt
+  281  ll
+  282  mkdir animals_directory
+  283  mv friends_of_man_new_name.txt animals_directory/
+  284  ll
+  285  cd animals_directory/
+  286  ll
+  287  cd ..
+  288  sudo apt-get install software-properties-common
+  289  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 467B942D3A79BD29
+  290  sudo add-apt-repository 'deb http://repo.mysql.com/apt/ubuntu/ focal mysql-8.0'
+  291  sudo apt update
+  292  sudo apt install mysql-server
+  293  sudo dpkg -i <package-name>.deb
+  294  sudo dpkg -r <package-name>
+  295  sudo dpkg -i <package-name>.deb
+  296  sudo dpkg -r <package-name>
+  297  history | tail -n 20 
+olga_ubuntu@Olga:~$ sudo mysql
+[sudo] пароль для olga_ubuntu: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 14
+Server version: 8.0.41-0ubuntu0.24.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2025, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> CREATE DATABASE friends_of_man;
+Query OK, 1 row affected (0,02 sec)
+
+mysql> USE friends_of_man;
+Database changed
+mysql> CREATE TABLE domestic_animals (
+    ->     id INT AUTO_INCREMENT PRIMARY KEY,
+    ->     name VARCHAR(255),
+    ->     birth_date DATE,
+    ->     commands TEXT
+    -> );
+Query OK, 0 rows affected (0,04 sec)
+
+mysql> CREATE TABLE pack_animals (
+    ->     id INT AUTO_INCREMENT PRIMARY KEY,
+    ->     name VARCHAR(255),
+    ->     birth_date DATE,
+    ->     commands TEXT
+    -> );
+Query OK, 0 rows affected (0,03 sec)
+
+mysql> INSERT INTO domestic_animals (name, birth_date, commands) 
+    -> VALUES ('Собака', '2020-01-01', 'Сидеть, Лежать');
+Query OK, 1 row affected (0,02 sec)
+
+mysql> INSERT INTO pack_animals (name, birth_date, commands) 
+    -> VALUES ('Лошадь', '2019-02-05', 'Тянуть повозку');
+Query OK, 1 row affected (0,01 sec)
+
+mysql> SELECT * FROM domestic_animals;
++----+--------------+------------+----------------------------+
+| id | name         | birth_date | commands                   |
++----+--------------+------------+----------------------------+
+|  1 | Собака       | 2020-01-01 | Сидеть, Лежать             |
++----+--------------+------------+----------------------------+
+1 row in set (0,00 sec)
+
+mysql> SELECT * FROM pack_animals;
++----+--------------+------------+-----------------------------+
+| id | name         | birth_date | commands                    |
++----+--------------+------------+-----------------------------+
+|  1 | Лошадь       | 2019-02-05 | Тянуть повозку              |
++----+--------------+------------+-----------------------------+
+1 row in set (0,00 sec)
+
+mysql> INSERT INTO domestic_animals (name, birth_date, commands) VALUES (Кошка, '2021-01-01', 'Сидеть, Мяу’);
+    '> INSERT INTO pack_animals (name, birth_date, commands) VALUES ('Верблюд', '2018-02-15', 'Пошел, право, лево');
+    '> 
+    '> SELECT * FROM domestic_animals;
+    '> SELECT * FROM pack_animals;
+    '> SELECT * FROM domestic_animals;
+    '> SELECT * FROM pack_animals;
+    '> EXIT;
+    '> exit;
+    '> ^C
+mysql> SELECT * FROM domestic_animals;
++----+--------------+------------+----------------------------+
+| id | name         | birth_date | commands                   |
++----+--------------+------------+----------------------------+
+|  1 | Собака       | 2020-01-01 | Сидеть, Лежать             |
++----+--------------+------------+----------------------------+
+1 row in set (0,00 sec)
+
+mysql> SELECT * FROM pack_animals;
++----+--------------+------------+-----------------------------+
+| id | name         | birth_date | commands                    |
++----+--------------+------------+-----------------------------+
+|  1 | Лошадь       | 2019-02-05 | Тянуть повозку              |
++----+--------------+------------+-----------------------------+
+1 row in set (0,00 sec)
+
+mysql> INSERT INTO domestic_animals (name, birth_date, commands) VALUES (Кошка, '2021-01-01', 'Сидеть, Мяу’);
+    '> INSERT INTO pack_animals (name, birth_date, commands) VALUES ('Верблюд', '2018-02-15', 'Пошел, право, лево');
+    '> 
+    '> ^C
+mysql> SELECT * FROM pack_animals;
++----+--------------+------------+-----------------------------+
+| id | name         | birth_date | commands                    |
++----+--------------+------------+-----------------------------+
+|  1 | Лошадь       | 2019-02-05 | Тянуть повозку              |
++----+--------------+------------+-----------------------------+
+1 row in set (0,00 sec)
+
+mysql> INSERT INTO domestic_animals (name, birth_date, commands) 
+    -> VALUES ('Кот', '2018-03-15', 'Мурчать, Играть'),
+    ->        ('Хомяк', '2021-07-10', 'Бегать в колесе');
+Query OK, 2 rows affected (0,01 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> INSERT INTO pack_animals (name, birth_date, commands) 
+    -> VALUES ('Верблюд', '2017-09-20', 'Перевозить грузы'),
+    ->        ('Осёл', '2020-12-25', 'Нести поклажу');
+Query OK, 2 rows affected (0,01 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> SELECT * FROM pack_animals;
++----+----------------+------------+---------------------------------+
+| id | name           | birth_date | commands                        |
++----+----------------+------------+---------------------------------+
+|  1 | Лошадь         | 2019-02-05 | Тянуть повозку                  |
+|  2 | Верблюд        | 2017-09-20 | Перевозить грузы                |
+|  3 | Осёл           | 2020-12-25 | Нести поклажу                   |
++----+----------------+------------+---------------------------------+
+3 rows in set (0,00 sec)
+
+mysql> SELECT * FROM domestic_animals;
++----+--------------+------------+------------------------------+
+| id | name         | birth_date | commands                     |
++----+--------------+------------+------------------------------+
+|  1 | Собака       | 2020-01-01 | Сидеть, Лежать               |
+|  2 | Кот          | 2018-03-15 | Мурчать, Играть              |
+|  3 | Хомяк        | 2021-07-10 | Бегать в колесе              |
++----+--------------+------------+------------------------------+
+3 rows in set (0,00 sec)
+
+mysql> DELETE FROM pack_animals WHERE name = 'Верблюд';
+Query OK, 1 row affected (0,01 sec)
+
+mysql> SELECT * FROM pack_animals;
++----+--------------+------------+-----------------------------+
+| id | name         | birth_date | commands                    |
++----+--------------+------------+-----------------------------+
+|  1 | Лошадь       | 2019-02-05 | Тянуть повозку              |
+|  3 | Осёл         | 2020-12-25 | Нести поклажу               |
++----+--------------+------------+-----------------------------+
+2 rows in set (0,00 sec)
+
+mysql> CREATE TABLE horses_and_donkeys AS 
+    -> SELECT * FROM pack_animals WHERE name IN ('Лошадь', 'Осёл');
+Query OK, 2 rows affected (0,04 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> SELECT * FROM pack_animals;
++----+--------------+------------+-----------------------------+
+| id | name         | birth_date | commands                    |
++----+--------------+------------+-----------------------------+
+|  1 | Лошадь       | 2019-02-05 | Тянуть повозку              |
+|  3 | Осёл         | 2020-12-25 | Нести поклажу               |
++----+--------------+------------+-----------------------------+
+2 rows in set (0,00 sec)
+
+mysql> CREATE TABLE young_animals AS 
+    -> SELECT *, TIMESTAMPDIFF(YEAR, birth_date, CURDATE()) AS age_years 
+    -> FROM domestic_animals 
+    -> WHERE TIMESTAMPDIFF(YEAR, birth_date, CURDATE()) BETWEEN 1 AND 3;
+Query OK, 1 row affected (0,04 sec)
+Records: 1  Duplicates: 0  Warnings: 0
+
+mysql> SELECT * FROM young_animals AS 
+    -> SELECT * FROM young_animals AS;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT * FROM young_animals AS' at line 2
+mysql> SELECT * FROM young_animals;
++----+------------+------------+------------------------------+-----------+
+| id | name       | birth_date | commands                     | age_years |
++----+------------+------------+------------------------------+-----------+
+|  3 | Хомяк      | 2021-07-10 | Бегать в колесе              |         3 |
++----+------------+------------+------------------------------+-----------+
+1 row in set (0,00 sec)
+
+mysql> CREATE TABLE all_animals AS 
+    -> SELECT 'Домашнее животное' AS type, * FROM domestic_animals
+    -> UNION ALL
+    -> SELECT 'Вьючное животное' AS type, * FROM pack_animals;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM domestic_animals
+UNION ALL
+SELECT 'Вьючное животное' AS ty' at line 2
+mysql> SELECT * FROM all_animals;
+ERROR 1146 (42S02): Table 'friends_of_man.all_animals' doesn't exist
+mysql> SELECT * FROM all_animals;
+ERROR 1146 (42S02): Table 'friends_of_man.all_animals' doesn't exist
+mysql> exit;
+Bye
+olga_ubuntu@Olga:~$ sudo mysql
+[sudo] пароль для olga_ubuntu: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 15
+Server version: 8.0.41-0ubuntu0.24.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2025, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> CREATE TABLE all_animals;
+ERROR 1046 (3D000): No database selected
+mysql> CREATE TABLE all_animals AS 
+    -> SELECT 'domestic_animals’ AS type, * FROM domestic_animals
+    '> UNION ALL
+    '> SELECT 'pack_animals' AS type, * FROM pack_animals;
+    '> 
+    '> CREATE TABLE all_animals AS 
+    '> SELECT 'domestic_animals’ AS type, * FROM domestic_animals
+    -> UNION ALL
+    -> SELECT 'pack_animals' AS type, * FROM pack_animals;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' AS type, * FROM pack_animals;
+
+CREATE TABLE all_animals AS 
+SELECT 'domestic_a' at line 4
+mysql> SELECT * FROM all_animals;
+ERROR 1046 (3D000): No database selected
+mysql> ^C
+mysql> CREATE TABLE all_animals AS 
+    -> SELECT 'domestic_animals' AS type, * FROM domestic_animals
+    -> UNION ALL
+    -> SELECT 'pack_animals' AS type, * FROM pack_animals;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM domestic_animals
+UNION ALL
+SELECT 'pack_animals' AS type, * FROM pack_ani' at line 2
+mysql> CREATE TABLE all_animals AS 
+    -> SELECT 'domestic_animals' AS type, id, name, birth_date, commands
+    -> FROM domestic_animals
+    -> UNION ALL
+    -> SELECT 'pack_animals' AS type, id, name, birth_date, commands
+    -> FROM pack_animals;
+ERROR 1046 (3D000): No database selected
+mysql> CREATE TABLE all_animals AS 
+    -> SELECT 'domestic_animals' AS type, id, name, birth_date, commands
+    -> FROM domestic_animals
+    -> UNION ALL
+    -> SELECT 'pack_animals' AS type, id, name, birth_date, commands
+    -> FROM pack_animals;
+ERROR 1046 (3D000): No database selected
+mysql> USE friends_of_man;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> USE friends_of_man;CREATE TABLE all_animals AS 
+Database changed
+    -> SELECT 'domestic_animals' AS type, id, name, birth_date, commands
+    -> FROM domestic_animals
+    -> UNION ALL
+    -> SELECT 'pack_animals' AS type, id, name, birth_date, commands
+    -> FROM pack_animals;
+Query OK, 5 rows affected (0,04 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> SELECT * FROM all_animals;
++------------------+----+--------------+------------+------------------------------+
+| type             | id | name         | birth_date | commands                     |
++------------------+----+--------------+------------+------------------------------+
+| domestic_animals |  1 | Собака       | 2020-01-01 | Сидеть, Лежать               |
+| domestic_animals |  2 | Кот          | 2018-03-15 | Мурчать, Играть              |
+| domestic_animals |  3 | Хомяк        | 2021-07-10 | Бегать в колесе              |
+| pack_animals     |  1 | Лошадь       | 2019-02-05 | Тянуть повозку               |
+| pack_animals     |  3 | Осёл         | 2020-12-25 | Нести поклажу                |
++------------------+----+--------------+------------+------------------------------+
+5 rows in set (0,00 sec)
+
+mysql> exit;
+Bye
+olga_ubuntu@Olga:~$ 
+
+
